@@ -50,9 +50,9 @@ Download the script from the [releases page](https://github.com/anonfaded/weathe
 
 1. Clone the repository:
 
-    ```bash
+ ```bash
     git clone https://github.com/yourusername/WeatherCLI.git
-    ```
+ ```
 
 2. Navigate to the WeatherCLI directory:
 
@@ -85,11 +85,6 @@ Download the script from the [releases page](https://github.com/anonfaded/weathe
     python weatherCLI.py
 ```
 
-## Requirements
-
-- Python 3.x
-- colorama library
-- requests library
 
 ## Contributors
 
