@@ -36,14 +36,14 @@
 
 ## ⬇️ Download
 
-Download the script directly from the [releases page](https://github.com/anonfaded/weathercli/releases).
+Download the script directly from our [releases page](https://github.com/anonfaded/weathercli/releases).
 
 
 ## Features
 
-- Provides real-time weather information for any city worldwide.
-- Displays temperature, cloud cover, visibility, air quality index, sunrise, sunset, timezone, and local time.
-- Simple and easy-to-use command-line interface.
+- Get instant weather updates for any city worldwide.
+- Includes temperature, cloud cover, visibility, air quality index, sunrise, sunset, timezone, and local time.
+- Streamlined and user-friendly command-line interface.
 
 ## Installation
 
@@ -51,10 +51,10 @@ Download the script directly from the [releases page](https://github.com/anonfad
 1. Clone the repository:
 
  ```bash
-    git clone https://github.com/yourusername/WeatherCLI.git
+    git clone https://github.com/anonfaded/WeatherCLI.git
  ```
 
-1. Navigate to the WeatherCLI directory:
+2. Navigate to the WeatherCLI directory:
 
  ```bash
     cd WeatherCLI
@@ -65,3 +65,4 @@ Download the script directly from the [releases page](https://github.com/anonfad
  ```bash
     python3 weatherCLI.py
  ```
+(Required dependencies will be automatically installed.)
