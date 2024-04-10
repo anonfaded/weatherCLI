@@ -38,11 +38,11 @@ __        __         _   _                ____ _     ___
  \ \ /\ / / _ \/ _` | __| '_ \ / _ \ '__| |   | |    | | 
   \ V  V /  __/ (_| | |_| | | |  __/ |  | |___| |___ | | 
    \_/\_/ \___|\__,_|\__|_| |_|\___|_|   \____|_____|___|
-                                                        
+                                                       
                                                       linux v1.0         
   """
     print(f"{Fore.GREEN}{logo}{Style.RESET_ALL}")
-    print(f"{Fore.RED}\n\t\t█▒▓­░⡷⠂ DEVELOPED BY FADED ⠐⢾░▒▓█{Style.RESET_ALL}")
+    print(f"{Fore.RED}\t\t█▒▓­░⡷⠂ DEVELOPED BY FADED ⠐⢾░▒▓█{Style.RESET_ALL}")
     print(f"{Fore.LIGHTWHITE_EX}\n\t\t🏴 彡 https://t.me/cyberhood  彡 🏴 {Style.RESET_ALL}")
     print(f"{Back.RED}\n\t ★ 彡 https://github.com/anonfaded/weatherCLI 彡 ★ {Style.RESET_ALL}\n\n") 
 
