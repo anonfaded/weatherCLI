@@ -1,7 +1,24 @@
-import requests
-import json
+import subprocess
+import sys
+
+# Install required dependencies
+def install_dependencies():
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "requests", "colorama"])
+
+# Check if required dependencies are installed
+try:
+    import requests
+    from colorama import Fore, Style, Back
+    import json
+except ImportError:
+    print("Required dependencies are not installed. Installing...")
+    install_dependencies()
+    # Re-import after installation
+    import requests
+    from colorama import Fore, Style, Back
+    import json
+
 import os
-from colorama import Fore, Style, Back
 from datetime import datetime
 
 key = "a86184fd83be486db83120827240904"
