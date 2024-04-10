@@ -10,6 +10,8 @@ def clear_terminal():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def header():
+    # ╭───────────────────────────────────────────────╮
+    # ╰───────────────────────────────────────────────╯
     # Print the logo
     logo = r"""
     
@@ -80,7 +82,7 @@ def main():
     while True:
         clear_terminal()
         header()  # Print header
-        city = input(f"{Fore.GREEN}Enter the name of city {Fore.LIGHTBLACK_EX}(Enter q to exit)\n{Fore.BLUE}>>> {Style.RESET_ALL}")
+        city = input(f"{Fore.GREEN}╭──────── Enter the name of city {Fore.LIGHTBLACK_EX}(Enter q to exit)\n{Fore.GREEN}╰─>>> {Style.RESET_ALL}")
         
         if city == '':
             print(f"{Fore.RED}\tPlease enter a city name.{Style.RESET_ALL}")
