@@ -39,7 +39,7 @@ __        __         _   _                ____ _     ___
   \ V  V /  __/ (_| | |_| | | |  __/ |  | |___| |___ | | 
    \_/\_/ \___|\__,_|\__|_| |_|\___|_|   \____|_____|___|
                                                        
-                                                      linux v1.0         
+                                                          v1.0         
   """
     print(f"{Fore.GREEN}{logo}{Style.RESET_ALL}")
     print(f"{Fore.RED}\t\t█▒▓­░⡷⠂ DEVELOPED BY FADED ⠐⢾░▒▓█{Style.RESET_ALL}")
