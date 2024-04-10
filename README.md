@@ -10,12 +10,14 @@
 
 ---
 
-## 📱 Screenshot
+## 📱 Screenshots
 
 <div align="center">
     <img src="/img/1.png" style="width: 700px; height: auto;" >
     <br>
-    <em>Linux/Android</em>
+    <img src="/img/2.png" style="width: 700px; height: auto;" >
+    <br>
+    <em>Linux/Android/Windows</em>
     <br><br>
     <!-- <img src="/img/2.png" style="width: 700px; height: auto;" >
     <br>
