@@ -16,7 +16,6 @@
     <img src="/img/2.png" style="width: 700px; height: auto;" >
     <br>
     <em>Linux/Android/Windows</em>
-    </br>
     <img src="/img/1.png" style="width: 700px; height: auto;" >
     <br>
     <br><br>
