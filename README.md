@@ -36,8 +36,7 @@
 
 ## ⬇️ Download
 
-Download the script from the [releases page](https://github.com/anonfaded/weathercli/releases).
-
+Download the script directly from the [releases page](https://github.com/anonfaded/weathercli/releases).
 
 
 ## Features
@@ -48,15 +47,14 @@ Download the script from the [releases page](https://github.com/anonfaded/weathe
 
 ## Installation
 
-### Linux
-
+(For android, install Termux from the [F-Droid app store](https://f-droid.org/F-Droid.apk).)
 1. Clone the repository:
 
  ```bash
     git clone https://github.com/yourusername/WeatherCLI.git
  ```
 
-2. Navigate to the WeatherCLI directory:
+1. Navigate to the WeatherCLI directory:
 
  ```bash
     cd WeatherCLI
@@ -67,27 +65,3 @@ Download the script from the [releases page](https://github.com/anonfaded/weathe
  ```bash
     python3 weatherCLI.py
  ```
-
-### Android (Termux):
-1. Install Termux from the [F-Droid app store](https://f-droid.org/F-Droid.apk).
-2. Clone the repository:
-
-```bash
-    git clone https://github.com/yourusername/WeatherCLI.git
-```
-
-3. Navigate to the WeatherCLI directory:
-
-```bash
-    cd WeatherCLI
-```
-4. Run the script:
-
-```bash
-    python weatherCLI.py
-```
-
-
-## Contributors
-
-Contributions are welcomed.
