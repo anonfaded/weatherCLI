@@ -69,6 +69,7 @@ def print_weather_info(city, temperature, cloud, visibility, air_quality, sunris
     clear_terminal()
     header()  # Print header
     print(f"{Fore.GREEN}╭────── Weather information for {city}:{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}│{Style.RESET_ALL}")
     print(f"{Fore.GREEN}│{Style.RESET_ALL} - Temperature:   {Fore.YELLOW}{temperature}°C{Style.RESET_ALL}")
     print(f"{Fore.GREEN}│{Style.RESET_ALL} - Cloud cover:   {Fore.YELLOW}{cloud}%{Style.RESET_ALL}")
     print(f"{Fore.GREEN}│{Style.RESET_ALL} - Visibility:    {Fore.YELLOW}{visibility} km{Style.RESET_ALL}")
