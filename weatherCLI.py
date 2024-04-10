@@ -68,21 +68,22 @@ def fetch_weather_data(city):
 def print_weather_info(city, temperature, cloud, visibility, air_quality, sunrise, sunset, timezone_id, local_time):
     clear_terminal()
     header()  # Print header
-    print(f"{Fore.GREEN}Weather information for {city}:{Style.RESET_ALL}")
-    print(f"  - Temperature:   {Fore.YELLOW}{temperature}°C{Style.RESET_ALL}")
-    print(f"  - Cloud cover:   {Fore.YELLOW}{cloud}%{Style.RESET_ALL}")
-    print(f"  - Visibility:    {Fore.YELLOW}{visibility} km{Style.RESET_ALL}")
-    print(f"  - Air Quality:   {Fore.YELLOW}{air_quality}{Style.RESET_ALL}")
-    print(f"  - Sunrise:       {Fore.YELLOW}{sunrise}{Style.RESET_ALL}")
-    print(f"  - Sunset:        {Fore.YELLOW}{sunset}{Style.RESET_ALL}")
-    print(f"  - Timezone ID:   {Fore.YELLOW}{timezone_id}{Style.RESET_ALL}")
-    print(f"  - Local Time:    {Fore.YELLOW}{local_time}{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}╭────── Weather information for {city}:{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}│{Style.RESET_ALL} - Temperature:   {Fore.YELLOW}{temperature}°C{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}│{Style.RESET_ALL} - Cloud cover:   {Fore.YELLOW}{cloud}%{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}│{Style.RESET_ALL} - Visibility:    {Fore.YELLOW}{visibility} km{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}│{Style.RESET_ALL} - Air Quality:   {Fore.YELLOW}{air_quality}{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}│{Style.RESET_ALL} - Sunrise:       {Fore.YELLOW}{sunrise}{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}│{Style.RESET_ALL} - Sunset:        {Fore.YELLOW}{sunset}{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}│{Style.RESET_ALL} - Timezone ID:   {Fore.YELLOW}{timezone_id}{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}│{Style.RESET_ALL} - Local Time:    {Fore.YELLOW}{local_time}{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}╰{Style.RESET_ALL}")
 
 def main():
     while True:
         clear_terminal()
         header()  # Print header
-        city = input(f"{Fore.GREEN}╭──────── Enter the name of city {Fore.LIGHTBLACK_EX}(Enter q to exit)\n{Fore.GREEN}╰─>>> {Style.RESET_ALL}")
+        city = input(f"{Fore.GREEN}╭────── Enter the name of city {Fore.LIGHTBLACK_EX}(Enter q to exit)\n{Fore.GREEN}╰─>>> {Style.RESET_ALL}")
         
         if city == '':
             print(f"{Fore.RED}\tPlease enter a city name.{Style.RESET_ALL}")
